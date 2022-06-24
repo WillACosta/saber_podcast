@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'dashboard/views/dashboard_screen.dart';
+import './dashboard/views/dashboard_screen.dart';
+import '../shared/shared.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -10,9 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Saber Podcasts',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: lightTheme,
       home: const DashboardScreen(),
     );
   }
