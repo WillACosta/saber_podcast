@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './dashboard/views/dashboard_screen.dart';
+import '../core/routes/main_routes.dart';
 import '../shared/shared.dart';
 
 class App extends StatelessWidget {
@@ -12,7 +12,8 @@ class App extends StatelessWidget {
       title: 'Saber Podcasts',
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
-      home: const DashboardScreen(),
+      initialRoute: Routes.initial,
+      routes: appRoutes,
     );
   }
 }

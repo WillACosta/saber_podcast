@@ -1,0 +1,4 @@
+#Sun Jul 03 12:51:07 BRT 2022
+base.0=/Users/will/workspace/projects/flutter/web/saber_podcast/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -8,6 +8,7 @@ class AppNavigationBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomNavigationBar(
       elevation: 0,
+      type: BottomNavigationBarType.fixed,
       items: const [
         BottomNavigationBarItem(
           icon: Icon(CupertinoIcons.home),
@@ -16,6 +17,10 @@ class AppNavigationBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(CupertinoIcons.search),
           label: 'Browse',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(CupertinoIcons.bookmark),
+          label: 'Bookmarks',
         ),
         BottomNavigationBarItem(
           icon: Icon(CupertinoIcons.rectangle_grid_2x2),
