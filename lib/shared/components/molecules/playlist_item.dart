@@ -16,8 +16,15 @@ class PlaylistItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text(title),
-      subtitle: Text(author),
+      contentPadding: EdgeInsets.zero,
+      title: Text(
+        title,
+        style: const TextStyle(fontSize: 12),
+      ),
+      subtitle: Text(
+        author,
+        style: const TextStyle(fontSize: 11),
+      ),
       trailing: IconButton(
         onPressed: () {},
         icon: const Icon(CupertinoIcons.play_circle),

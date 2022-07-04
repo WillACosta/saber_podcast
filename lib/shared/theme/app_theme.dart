@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 final lightTheme = ThemeData(
-  fontFamily: 'JetBrains Mono',
   primarySwatch: Colors.teal,
+  textTheme: GoogleFonts.poppinsTextTheme(),
 );

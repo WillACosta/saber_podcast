@@ -16,20 +16,20 @@ class DashboardBody extends StatelessWidget {
           const SizedBox(height: 22),
           const SizedBox(
             height: 250,
-            child: const HorizontalListView(
+            child: HorizontalListView(
               children: [
-                const PodcastItem(
+                PodcastItem(
                   title: 'Stoicism: nature of the self',
                   author: 'Yuna Kim',
                   imageId: 53,
                 ),
                 SizedBox(width: 20),
-                const PodcastItem(
+                PodcastItem(
                   title: 'Venezuela, donde estás?',
                   author: 'Jake Adams',
                   imageId: 49,
                 ),
-                const SizedBox(width: 20),
+                SizedBox(width: 20),
                 PodcastItem(
                   title: 'The seven principles',
                   author: 'Hermes J.',
@@ -42,7 +42,7 @@ class DashboardBody extends StatelessWidget {
           const Text(
             'Most Popular',
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 18,
             ),
           ),
           const SizedBox(height: 22),

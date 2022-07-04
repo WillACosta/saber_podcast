@@ -9,6 +9,9 @@ class AppNavigationBar extends StatelessWidget {
     return BottomNavigationBar(
       elevation: 0,
       type: BottomNavigationBarType.fixed,
+      selectedFontSize: 12,
+      showUnselectedLabels: false,
+      showSelectedLabels: false,
       items: const [
         BottomNavigationBarItem(
           icon: Icon(CupertinoIcons.home),
